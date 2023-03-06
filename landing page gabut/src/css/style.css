@@ -1,0 +1,137 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap'); /* Tilt Warp for firstname on navbar */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap'); /* Kanit for lastname on navbar */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); /* Anton for header text */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /* Ubuntu for content text */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); /* Poppins for copyright text */
+/* ----------- */
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh ;
+}
+
+.wrapper-navbar {
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.row-brand {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
+    font-size: 35px;
+    gap: 20px;
+}
+
+.firstname {
+    font-family: 'Tilt Warp', cursive;
+    color: crimson;
+}
+
+.lastname {
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+.row-content ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.row-content a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.row-content a:hover {
+    background-color: #cacaca;
+    padding: 30px;
+}
+
+.row-show {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-deskripsi {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold-text {
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    margin-right: 260px;
+}
+
+.text-content {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    width: 500px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 300px;
+}
+
+.readmore {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: 50px;
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.readmore a {
+    font-family: 'Tilt Warp', cursive;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.content-img {
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.footer hr {
+    margin-top: 30vh;
+}
+
+.copyright-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
